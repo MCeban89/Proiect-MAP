@@ -1,7 +1,5 @@
-#ifndef UTILS_H
-#define UTILS_H
+#define MAX 8
 
 void printMessage();
 int addNumbers(int a, int b);
-
-#endif
+void afisare(int a[][MAX],int size);
