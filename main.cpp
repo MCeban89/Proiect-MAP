@@ -1,12 +1,17 @@
 #include "utils.h"
 #include "afisare.cpp"
+#include "solution.cpp"
 using namespace std;
 
 int main()
 {
     int t[MAX][MAX]={0};
 
-    afisare(t,MAX);
+
+    solution(t);
+    //afisare(t,MAX); 
+    
+
 
     return 0;
 }
