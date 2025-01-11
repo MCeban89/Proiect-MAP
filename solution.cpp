@@ -11,7 +11,19 @@ bool isSafe(int t[MAX][MAX],int row, int col)
             return false;
     }
 
+    for(int i = row, j = col; i >= 0; i--, j--)
+    {
+        if(t[i][j])
+        return false;
+    }
 
+    for(int i = row, j = col; j >= 0 && i < MAX; i++, j--)
+    {
+        if(t[i][j])
+            return false;
+    }
+
+    return true;
 }
 
 
