@@ -3,27 +3,29 @@
 using namespace std;
 
 
-
-void solut(int t[MAX][MAX], int col, int &counter)
+bool isSafe(int t[MAX][MAX],int row, int col)
 {
-    for(int i = 0; i < MAX; i++)
+    for(int i=0; i< col; i++)
     {
-        for(int m = 0; m < MAX; m++)
-        {
-            t[i][m] = 1;
-        
-            afisare(t,MAX);
-            cout << endl;
-            for(int j = 0; j < MAX; j++)
-            {
-                for(int k = 0; k < MAX; k++)
-                {
-                    t[j][k] = 0;
-                }
-            }
-        }   
-        cout << endl;
+        if(t[row][i])
+            return false;
     }
+
+
+}
+
+
+bool solut(int t[MAX][MAX], int col, int &counter)
+{
+    if (col == MAX)
+    {
+        cout << counter;
+        counter++;
+        afisare(t,MAX);
+        return true;
+    }
+
+
 } 
 
 void initialization(int t[MAX][MAX])
