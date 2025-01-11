@@ -4,7 +4,7 @@ using namespace std;
 
 
 
-void s(int t[MAX][MAX], int col, int &counter)
+void solut(int t[MAX][MAX], int col, int &counter)
 {
     for(int i = 0; i < MAX; i++)
     {
@@ -23,13 +23,12 @@ void s(int t[MAX][MAX], int col, int &counter)
             }
         }   
         cout << endl;
-        //break;
     }
 } 
 
-void initialization(int t[MAX][MAX] )
+void initialization(int t[MAX][MAX])
 {
     int counter = 0;
-    s(t,0,counter);
-
+    solut(t,0,counter);
+    cout << "Numarul de solutii: "<< counter<< endl;
 }
