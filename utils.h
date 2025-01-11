@@ -3,4 +3,4 @@
 void printMessage();
 int addNumbers(int a, int b);
 void afisare(int a[][MAX],int size);
-void solution(int t[][MAX]);
+void solution(int a[][MAX], int col, int &counter);

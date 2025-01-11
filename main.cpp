@@ -7,8 +7,8 @@ int main()
 {
     int t[MAX][MAX]={0};
 
-
-    solution(t);
+    int counter = 0;
+    initialization(t);
     //afisare(t,MAX); 
     
 
