@@ -13,4 +13,5 @@ void afisare(int a[][MAX],int size)
         }
         cout << endl;
     }
+    cout << endl;
 }
