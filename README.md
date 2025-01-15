@@ -56,7 +56,7 @@ Punctaj
  ·Executia programului
     ./main
 
-## Ecemplu de rulare
+## Exemplu de rulare
     
     ![my_screen](images/img.png)
 
