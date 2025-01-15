@@ -35,33 +35,46 @@ Punctaj
 ## Functionalitatea proiectului
 
  Afișarea soluțiilor: Toate soluțiile valide sunt afișate în consolă sub formă de matrice.
+
  Numărarea soluțiilor: La final, programul afișează numărul total de soluții găsite.
+ 
  Metoda utilizată: Programul folosește backtracking pentru explorarea tuturor configurațiilor posibile ale reginelor pe tablă.
 
 ## Resurse utilizate
 
  ·Mediul de lucru
+ 
     Sistem de operare - macOS sequoia
+ 
     Editor cod - VS Code
+ 
  ·Tehnologii utilizate 
+ 
     Docker 
+ 
     Git/Github
 
 ## Rularea Proiect
  
  ·Cu docker
+ 
     docker build -t nume_imagine .
+ 
     docker run -d -e GITHUB_TOKEN=your_personal_github_token nume_imagine
 
  ·Executia programului
+ 
     ./main
 
 ## Exemplu de rulare
-    
+<img src="images/img.png" alt="my_screen" width="200"/>
+
 ![my_screen](images/img.png)
 
 ## Linkuri
 
  ·Github https://github.com/MCeban89
+ 
  ·Proiect https://github.com/MCeban89/Proiect-MAP
+ 
  ·DockerHub https://hub.docker.com/u/michael192
