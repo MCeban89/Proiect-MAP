@@ -58,7 +58,7 @@ Punctaj
 
 ## Ecemplu de rulare
     
-    ![my_screen](images/image.png)
+    ![my_screen](/Users/mihaiceban/Documents/GitHub/Proiect_MAP/images/img.png)
 
 ## Linkuri
 
