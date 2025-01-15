@@ -58,7 +58,7 @@ Punctaj
 
 ## Exemplu de rulare
     
-    ![my_screen](images/img.png)
+![my_screen](images/img.png)
 
 ## Linkuri
 
